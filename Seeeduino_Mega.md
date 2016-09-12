@@ -116,7 +116,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
     
-[![enter image description here]()](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
+[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/download_driver.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
 - Click on the Start Menu, and open up the Control Panel.
@@ -210,6 +210,13 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 
 ##FAQ
 
-* What is the different between Arduino Mega
+###What is the different between Arduino Mega with Seeeduino Mega?
+
+Seeeduino Mega is a powerful microcontroller derived from Arduino Mega. And there are the mainly difference list:
+
+* Use a mini USB to power and program
+* Add 3.3/5V system power switch
+* Add automatic reset mode swtich
+* Smaller size
 
 ##Help us to make it better
