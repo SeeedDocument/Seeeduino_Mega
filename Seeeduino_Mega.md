@@ -116,15 +116,15 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
     
-[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/download_driver_for_seeeduino_lotus.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
+[![enter image description here]()](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
 - Click on the Start Menu, and open up the Control Panel.
 - While in the Control Panel, navigate to System and Security. Next, click on System. Once the System window is up, open the **Device Manager**.
-- Look under Ports (COM & LPT). You should find an open port named "Seeeduino Lotus". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
-- Right click on the "Seeeduino Lotus" port and choose the "Update Driver Software" option.
+- Look under Ports (COM & LPT). You should find an open port named "Seeeduino Mega". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
+- Right click on the "Seeeduino Mega" port and choose the "Update Driver Software" option.
 - Next, choose the "Browse my computer for Driver software" option.
-- Finally, navigate to and select the driver file named "Seeeduino Lotus.inf"
+- Finally, navigate to and select the driver file named "Seeeduino Mega.inf"
 - Windows will finish up the driver installation from there.
 
 ###For Mac OSX
@@ -168,12 +168,12 @@ Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Seeeduino Mega 2560**.
 
-![enter image description here]()
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/mega_arduino_ide.png?raw=true)
 
 ###Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
-![enter image description here]()
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/select_com_seeeduino_mega.png?raw=true)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
