@@ -4,16 +4,17 @@ category: Arduino
 bzurl: https://www.seeedstudio.com/Seeeduino-Mega-p-717.html
 oldwikiname: Seeeduino_Mega
 prodimagename: Seeeduino_Mega_Cover.jpg
+surveyurl: https://www.surveymonkey.com/r/Seeeduino_Mega
 sku: 102010007
 ---
 
 ##Introduction
 
-![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/Seeeduino_Mega_cover.jpg?raw=true
+![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/Seeeduino_Mega_cover.jpg?raw=true)
 
-Seeeduino Mega is a powerful microcontroller derived from Arduino Mega. It features ATmega2560 processor which brings a large number of I/O pins, as much as 70 digital I/O, 16 analog inputs, 14 PWM, and 4 hardware serial ports. Compared to Arduino Mega, we shrunk the volume of Arduino Mega by at least 30% and made it 100% compatible with [Seeed Shield products](https://www.seeedstudio.com/s/shield.html). And as a member of Seeeduino series, Seeeduino Mega inherits deliberate details from Seeeduino, like selectable operating voltage(3.3V/5V), right angle reset button, and so on.
+Seeeduino Mega is a powerful micro-controller derived from Arduino Mega. It features ATmega2560 processor which brings a large number of I/O pins, as much as 70 digital I/O, 16 analog inputs, 14 PWM, and 4 hardware serial ports. Compared to Arduino Mega, we shrunk the volume of Arduino Mega by at least 30% and made it 100% compatible with [Seeed Shield products](https://www.seeedstudio.com/s/shield.html). And as a member of Seeeduino series, Seeeduino Mega inherits deliberate details from Seeeduino, like selectable operating voltage(3.3V/5V), right angle reset button, and so on.
 
-[![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/get_one_now.png?raw=true)](https://www.seeedstudio.com/Seeeduino-Mega-p-717.html)
+[![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/img/get_one_now.png?raw=true)](https://www.seeedstudio.com/Seeeduino-Mega-p-717.html)
 
 
 ##Application Ideas
@@ -67,7 +68,7 @@ Here is some funny project for your reference.
 
 The image below shows an overview of Seeeduino Mega hardware features. The pin-out and alternate functions of various pins of Seeeduino Mega are shown in the pin-out diagram. This could be used as a quick reference.
 
-![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/Seeeduino_Mega_hardware1.png?raw=true)
+![](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/Seeeduino_Mega_hardware1.png?raw=true)
 
  
 - **Mini USB**
@@ -83,7 +84,7 @@ This button is conveniently placed on the side to allow you to reset the Seeedui
 - **ICSP**
 This is the ICSP connection for the ATmega328P, it is located in the standard ICSP/SPI position for Arduino Uno, Due, Mega, and Leonardo compatible hardware (e.g. shields) that may use this connector. The SPI pins in this port: MISO, SCK, and MOSI, are also connected to digital pins 12, 13, and 11 respectively just like those of the Arduino Uno.
 - **Digital Pins**
-There are up to 70 digital pins in Seeeduino Mega. Click [here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/resources/Seeeduino%20Mega%20pin%20mapping.pdf) to see the pin mapping between Arduino Pins and Atmega2560 pins.
+There are up to 70 digital pins in Seeeduino Mega. Click [here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino%20Mega%20pin%20mapping.pdf) to see the pin mapping between Arduino Pins and Atmega2560 pins.
 Each of the 70 digital pins on the Mega can be used as an input or output, using pinMode(), digitalWrite(), and digitalRead() functions. They operate at 5 volts. Each pin can provide or receive 20 mA as recommended operating condition and has an internal pull-up resistor (disconnected by default) of 20-50 k ohm. A maximum of 40mA is the value that must not be exceeded to avoid permanent damage to the microcontroller.
 In addition, some pins have specialized functions:
 Serial: 0 (RX) and 1 (TX); Serial 1: 19 (RX) and 18 (TX); Serial 2: 17 (RX) and 16 (TX); Serial 3: 15 (RX) and 14 (TX). Used to receive (RX) and transmit (TX) TTL serial data. Pins 0 and 1 are also connected to the corresponding pins of the ATmega16U2 USB-to-TTL Serial chip.
@@ -116,7 +117,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
     
-[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/download_driver.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
+[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/download_driver.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
 - Click on the Start Menu, and open up the Control Panel.
@@ -139,7 +140,7 @@ You don't need to install any drivers.
     
 First of all, you need to Install an Arduino Software.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/img/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 ###Launch the Arduino application
@@ -162,18 +163,18 @@ Click on **File > Preference**, and fill Additional Boards Manager URLs with bel
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/add_board.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/add_board.png)
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Seeeduino Mega 2560**.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/mega_arduino_ide.png?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/mega_arduino_ide.png?raw=true)
 
 ###Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/images/select_com_seeeduino_mega.png?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/select_com_seeeduino_mega.png?raw=true)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
@@ -181,7 +182,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/upload_button.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/upload_button.png)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
@@ -194,10 +195,10 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 ##Resources
 
 * **Schematic**
-    * [Seeeduino Mega Eagle File](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/resources/Seeeduino_Mega_v3.0.zip)
+    * [Seeeduino Mega Eagle File](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino_Mega_v3.0.zip)
 
 * **Pin Mapping**
-    * [Seeeduino Mega Pin Mapping PDF](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/resources/Seeeduino%20Mega%20pin%20mapping.pdf)
+    * [Seeeduino Mega Pin Mapping PDF](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino%20Mega%20pin%20mapping.pdf)
     
 * **References**
     * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
