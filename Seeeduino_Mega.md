@@ -30,7 +30,7 @@ Here is some funny project for your reference.
 
 |8*8*8 LED Cube|Hexapod Robot|DIY Arduino 3D Printer|
 |-------|-------|--------|
-|[](http://www.instructables.com/file/F42EPXGIHQM8FIO/)|[](http://www.instructables.com/file/FJUMGG2IMP616DG/)|[](http://www.instructables.com/file/FH52OVPI301MBTJ/)|
+|[](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_1.jpg?raw=true)|[](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_2.jpg?raw=true)|[](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/img/example_3.jpg?raw=true)|
 |[Make it Now](http://www.instructables.com/id/Arduino-Mega-8x8x8-RGB-LED-Cube/)|[Make it Now](http://www.instructables.com/id/Arduino-Mega-Hexapod/)|[Make it Now](http://www.instructables.com/id/Arduino-Controlled-CNC-3D-Printer/)|
 
 ##Features
