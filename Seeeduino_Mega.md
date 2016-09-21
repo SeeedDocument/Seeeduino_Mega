@@ -84,9 +84,7 @@ This is the ICSP connection for the ATmega328P, it is located in the standard IC
 - **Digital Pins**
 There are up to 70 digital pins in Seeeduino Mega. Click [here](https://github.com/SeeedDocument/Seeeduino_Mega/blob/master/res/Seeeduino%20Mega%20pin%20mapping.pdf) to see the pin mapping between Arduino Pins and Atmega2560 pins.
 Each of the 70 digital pins on the Mega can be used as an input or output, using pinMode(), digitalWrite(), and digitalRead() functions. They operate at 5 volts. Each pin can provide or receive 20 mA as recommended operating condition and has an internal pull-up resistor (disconnected by default) of 20-50 k ohm. A maximum of 40mA is the value that must not be exceeded to avoid permanent damage to the microcontroller.
-
 In addition, some pins have specialized functions:
-
 	* Serial: 0 (RX) and 1 (TX); Serial 1: 19 (RX) and 18 (TX); Serial 2: 17 (RX) and 16 (TX); Serial 3: 15 (RX) and 14 (TX). Used to receive (RX) and transmit (TX) TTL serial data. Pins 0 and 1 are also connected to the corresponding pins of the ATmega16U2 USB-to-TTL Serial chip.
 	* External Interrupts: 2 (interrupt 0), 3 (interrupt 1), 18 (interrupt 5), 19 (interrupt 4), 20 (interrupt 3), and 21 (interrupt 2). These pins can be configured to trigger an interrupt on a low level, a rising or falling edge, or a change in level. See the attachInterrupt() function for details.
 	* PWM: 2 to 13 and 44 to 46. Provide 8-bit PWM output with the analogWrite() function.
