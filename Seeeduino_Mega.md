@@ -136,7 +136,7 @@ You don't need to install any drivers.
     
 First of all, you need to Install an Arduino Software.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/img/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 ###Launch the Arduino application
